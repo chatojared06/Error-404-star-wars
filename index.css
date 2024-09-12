@@ -1,0 +1,72 @@
+body {
+    background-image: url('./public/Espacio.png');
+    background-size: cover;
+    color: #e0e0e0;
+    font-family: 'Ginebra', sans-serif;
+    margin-top: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#container {
+    text-align: center;
+}
+
+#container img {
+    max-width: 100%;
+    height: auto;
+}
+
+#error404 {
+    font-size: 92px;
+}
+
+#mensaje {
+    font-size: 52px;
+}
+
+#imagen {
+    border-radius: 20px;
+}
+
+#Regresar {
+    background-color: rgb(101, 104, 101);
+    height: 60px;
+    width: 300px;
+    font-size: larger;
+    color: #000000;
+    margin-top: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-image 1s ease, background-color 1s ease, color 1s ease; 
+    background-size: cover;
+    background-position: center; 
+}
+
+#Regresar:hover {
+    background-image: url('./public/hiperespacio.jpg'); 
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+
+
+@media (max-width: 600px) {
+    body {
+        display: flex ; 
+        margin: 0;
+        padding: 10px;
+    }
+
+    #error404 {
+        font-size: 62px;
+    }
+
+    #mensaje {
+        font-size: 38px; 
+    }
+}
